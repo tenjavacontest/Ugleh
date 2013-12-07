@@ -1,0 +1,12 @@
+package com.tenjava.ugleh.sitstick;
+
+import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityDamageByEntityEvent;
+
+public class MListener implements Listener {
+	
+	@EventHandler
+	public void SitStickUsedEvent(EntityDamageByEntityEvent event){
+		
+	}
+}
