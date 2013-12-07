@@ -1,0 +1,10 @@
+package com.tenjava.ugleh.theme2;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Main extends JavaPlugin{
+	public static Plugin main;
+	public  void onEnable(){
+		
+	}
+}
