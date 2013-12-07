@@ -6,6 +6,10 @@ import java.util.List;
 import java.util.Map;
 
 import org.bukkit.ChatColor;
+import org.bukkit.Effect;
+import org.bukkit.Instrument;
+import org.bukkit.Note;
+import org.bukkit.Note.Tone;
 import org.bukkit.block.BlockFace;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -139,6 +143,8 @@ private void setPassenger(Player p, List<Entity> entityList) {
 		passenger.eject(); 
 	}
 	vehicle.setPassenger(passenger); //Set Passenger.
+	vehicle.getWorld().playEffect(vehicle.getLocation(), Effect.EXTINGUISH, 1);
+	p.playNote(p.getLocation(), Instrument.PIANO, Note.natural(1, Tone.A));
 	clearSelection(p, false); //Clear their selection.
 
 }
