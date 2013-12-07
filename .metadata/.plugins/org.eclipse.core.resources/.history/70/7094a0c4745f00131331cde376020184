@@ -1,0 +1,7 @@
+name: SitStick
+author: Ugleh
+version: 0.0.1
+description: Stick that allows you to set an entities passenger.
+main: com.tenjava.ugleh.sitstick.Main
+  commands:
+  

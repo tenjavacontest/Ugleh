@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.tenjava.ugleh.theme2&apos; to &apos;com.tenjava.ugleh.sitstick&apos;&#x0D;&#x0A;- Original project: &apos;Theme2&apos;&#x0D;&#x0A;- Original element: &apos;Theme2/src/com.tenjava.ugleh.theme2&apos;&#x0D;&#x0A;- Renamed element: &apos;Theme2/src/com.tenjava.ugleh.sitstick&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.tenjava.ugleh.theme2&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.tenjava.ugleh.theme2" name="com.tenjava.ugleh.sitstick" qualified="false" references="true" stamp="1386443702246" textual="false" version="1.0"/>
+</session>

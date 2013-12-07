@@ -1,0 +1,11 @@
+name: SitStick
+author: Ugleh
+version: 0.0.1
+description: Stick that allows you to set an entities passenger.
+main: com.tenjava.ugleh.sitstick.SitSitck
+  commands:
+    sitstick:
+      permission: sitstick.use
+      description: Select an Entity as a passenger, then another as the vehicle.
+      usage: Error! Simply type /sitstick to obtain the Sit Stick!
+      default: op
