@@ -85,7 +85,7 @@ private String getEntityName(Entity selection) {
  * Sets the passenger of the vehicle using entityList as the passenger and vehicle.
  * List<Entity> entityList
  * Index 0 should be the Passenger where Index 1 should be the Vehicle.
-*/	
+*/	 
 
 private void setPassenger(List<Entity> entityList) {
 	Entity passenger = entityList.get(0);

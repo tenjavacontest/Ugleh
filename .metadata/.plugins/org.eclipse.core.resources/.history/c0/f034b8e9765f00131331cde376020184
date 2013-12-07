@@ -1,8 +1,0 @@
-package com.tenjava.ugleh.sitstick;
-
-import org.bukkit.event.Listener;
-
-public class MListener implements Listener {
-	
-	
-}
