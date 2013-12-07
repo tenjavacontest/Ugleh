@@ -1,0 +1,9 @@
+name: SitStick
+author: Ugleh
+version: 0.0.1
+main: com.tenjava.ugleh.sitstick.SitStick
+  commands:
+    sitstick:
+      permission: sitstick.use
+      usage: Error! Simply type /sitstick to obtain the Sit Stick!
+      default: op
