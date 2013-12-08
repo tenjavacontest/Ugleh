@@ -11,9 +11,19 @@ This is my contribution to the [ten.java](http://tenjava.com/) plugin contest!
 
 ---------------------------------------
 
-Compilation
+SitStick Description
 -------------
-- Download & Install [Maven 3](http://maven.apache.org/download.html)
-- Clone the repository: `git clone https://github.com/tenjavacontest/letomcat.git`
-- Compile and create the plugin package using Maven: `mvn clean install`
-  - __Note:__ Maven will download all required dependencies and build a ready for use plugin package!
+The Sit Stick is used to give players the ability to have entities sit on other entities. Sure you can spawn them sitting on each other but there is no current way to have existing entities sit on each other or have a non spawn command to do it. So this is Sit Stick.
+Once you have the Sit Stick you can hit a mob to select them as a Passenger. Hitting another mob sets the Vehicle.
+At any time you can right click with the sit stick to clear your previous selection so you can select a new passenger.
+Left clicking the block underneath you will select yourself.
+
+Note: You can not select players as a Passenger or a Vehicle in creative or god mode.
+
+Permission: sitstick.use
+Description: Permission to use the Sit Stick.
+Default: OP
+
+Commands:
+/sitstick
+Description: Gives tou the Sit Stick
