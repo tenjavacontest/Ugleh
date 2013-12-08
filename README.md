@@ -18,12 +18,18 @@ Once you have the Sit Stick you can hit a mob to select them as a Passenger. Hit
 At any time you can right click with the sit stick to clear your previous selection so you can select a new passenger.
 Left clicking the block underneath you will select yourself.
 
+
 Note: You can not select players as a Passenger or a Vehicle in creative or god mode.
 
+
 Permission: sitstick.use
+
 Description: Permission to use the Sit Stick.
+
 Default: OP
 
 Commands:
+
 /sitstick
+
 Description: Gives tou the Sit Stick
